@@ -180,7 +180,7 @@ void CSceneShader::CreateShader(ID3D11Device *pd3dDevice)
 //073
 void CSceneShader::BuildObjects(ID3D11Device *pd3dDevice)
 {
-	int xObjects = 6, yObjects = 6, zObjects = 6, i = 0;
+	int xObjects = 10, yObjects = 10, zObjects = 10, i = 0;
 	/*정육면체 객체를 x-축, y-축, z-축으로 각각 13개씩 총 2,197개(13x13x13) 생성하고 구 객체를 16개 생성한다.*/   
 		m_nObjects = (xObjects * 2 + 1)*(yObjects * 2 + 1)*(zObjects * 2 + 1) + (8 * 2);
 	m_ppObjects = new CGameObject*[m_nObjects];
