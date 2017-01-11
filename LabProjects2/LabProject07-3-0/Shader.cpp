@@ -112,7 +112,7 @@ void CShader::CreateShader(ID3D11Device *pd3dDevice)
 	CreatePixelShaderFromFile(pd3dDevice, L"Effect.fx", "PS", "ps_5_0", &m_pd3dPixelShader);
 
 	//0720 에서 아마 없어도 되지 않을까싶다. 임의로 지웠음
-	CreateShaderVariables(pd3dDevice);
+	//CreateShaderVariables(pd3dDevice);
 }
 
 //0720

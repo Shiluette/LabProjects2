@@ -175,6 +175,8 @@ CSceneShader::~CSceneShader()
 void CSceneShader::CreateShader(ID3D11Device *pd3dDevice)
 {
 	CShader::CreateShader(pd3dDevice);
+	
+	
 }
 
 //073
