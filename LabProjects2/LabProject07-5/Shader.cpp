@@ -324,11 +324,21 @@ ID3D11Buffer *CInstancingShader::CreateInstanceBuffer(ID3D11Device *pd3dDevice, 
 	d3dBufferDesc.ByteWidth = nBufferStride * nObjects;
 	d3dBufferDesc.BindFlags = D3D11_BIND_VERTEX_BUFFER;
 	d3dBufferDesc.CPUAccessFlags = (pBufferData) ? 0 : D3D11_CPU_ACCESS_WRITE;
+
 	D3D11_SUBRESOURCE_DATA d3dBufferData;
 	ZeroMemory(&d3dBufferData, sizeof(D3D11_SUBRESOURCE_DATA));
 	d3dBufferData.pSysMem = pBufferData;
 	pd3dDevice->CreateBuffer(&d3dBufferDesc, (pBufferData) ? &d3dBufferData : NULL, &pd3dInstanceBuffer);
 	return(pd3dInstanceBuffer);
+
+	////월드 변환 행렬을 위한 상수 버퍼를 생성한다.
+	//D3D11_BUFFER_DESC bd;
+	//ZeroMemory(&bd, sizeof(bd));
+	//bd.Usage = D3D11_USAGE_DYNAMIC;
+	//bd.ByteWidth = sizeof(VS_CB_WORLD_MATRIX);
+	//bd.BindFlags = D3D11_BIND_CONSTANT_BUFFER;
+	//bd.CPUAccessFlags = D3D11_CPU_ACCESS_WRITE;
+	//pd3dDevice->CreateBuffer(&bd, NULL, &m_pd3dcbWorldMatrix);
 }
 
 //075
