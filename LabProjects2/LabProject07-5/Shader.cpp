@@ -349,7 +349,7 @@ void CInstancingShader::BuildObjects(ID3D11Device *pd3dDevice)
 	m_nInstanceBufferOffset = 0;
 
 	//인스턴싱할 객체는 큐브와 구들이다..
-	int xObjects = 20, yObjects = 20, zObjects = 20, i = 0;
+	int xObjects = 10, yObjects = 10, zObjects = 10, i = 0;
 	int nCubeObjects = (xObjects * 2 + 1) * (yObjects * 2 + 1) * (zObjects * 2 + 1);
 	int nSphereObjects = 8 * 2;
 
@@ -372,7 +372,7 @@ void CInstancingShader::BuildObjects(ID3D11Device *pd3dDevice)
 				pRotatingObject->SetMesh(pCubeMesh);
 				pRotatingObject->SetPosition(fxPitch*x, fyPitch*y, fzPitch*z);
 				pRotatingObject->SetRotationAxis(D3DXVECTOR3(0.0f, 1.0f, 0.0f));
-				pRotatingObject->SetRotationSpeed(10.0f*(i % 10));
+				//pRotatingObject->SetRotationSpeed(10.0f*(i % 10));
 				m_ppObjects[i++] = pRotatingObject;
 			}
 		}

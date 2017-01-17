@@ -1,1 +1,4 @@
-﻿  LabProject07-5.vcxproj -> C:\Users\dydrn\OneDrive\문서\Visual Studio 2015\Projects\LabProjects2\LabProjects2\x64\Debug\LabProject07-5.exe
+﻿  Shader.cpp
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject07-5\shader.cpp(218): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject07-5\shader.cpp(227): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LabProject07-5.vcxproj -> C:\Users\dydrn\OneDrive\문서\Visual Studio 2015\Projects\LabProjects2\LabProjects2\x64\Debug\LabProject07-5.exe
