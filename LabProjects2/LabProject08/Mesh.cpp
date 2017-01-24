@@ -757,6 +757,7 @@ CHeightMapGridMesh::CHeightMapGridMesh(ID3D11Device *pd3dDevice, int xStart, int
 	m_bcBoundingCube.m_d3dxvMinimum = D3DXVECTOR3(xStart*m_d3dxvScale.x, fMinHeight, zStart*m_d3dxvScale.z);
 	m_bcBoundingCube.m_d3dxvMaximum = D3DXVECTOR3((xStart + nWidth)*m_d3dxvScale.x, fMaxHeight, (zStart + nLength)*m_d3dxvScale.z);
 }
+
 //08
 CHeightMapGridMesh::~CHeightMapGridMesh()
 {
@@ -787,7 +788,6 @@ D3DXCOLOR CHeightMapGridMesh::OnGetColor(int x, int z, void *pContext)
 	/*정점 (x, z)에서 조명이 반사되는 양은 정점 (x, z)의 법선 벡터와 조명의 방향 벡터의 내적(cos)과 
 	인접한 3개의 점 (x+1, z), (x, z+1), (x+1, z+1)의 법선 벡터와 조명의 방향 벡터의 내적을 평균하여 구한다. 
 	정점 (x, z)의 색상은 조명 색상(세기)과 반사되는 양을 곱한 값이다.*/
-
 
 	float fScale = D3DXVec3Dot(&pHeightMap->GetHeightMapNormal(x, z), &d3dxvLightDirection);
 	fScale += D3DXVec3Dot(&pHeightMap->GetHeightMapNormal(x + 1, z), &d3dxvLightDirection);

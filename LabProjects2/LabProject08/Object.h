@@ -166,11 +166,9 @@ private:
 	//지형의 높이 맵으로 사용할 이미지이다.
 	CHeightMap *m_pHeightMap;
 
-	//지형의 가로와 세로 크기이다.
 	int m_nWidth;
 	int m_nLength;
 
-	//지형을 실제로 몇 배 확대할 것인가를 나타내는 스케일 벡터이다.
 	D3DXVECTOR3 m_d3dxvScale;
 
 public:

@@ -488,11 +488,12 @@ void CTerrainShader::BuildObjects(ID3D11Device *pd3dDevice)
 
 	//지형을 확대할 스케일 벡터이다. x-축과 z-축은 8배, y-축은 2배 확대한다.
 	D3DXVECTOR3 d3dxvScale(8.0f, 2.0f, 8.0f);
-	D3DXCOLOR d3dxColor(0.0f, 0.2f, 0.0f, 0.0f);
+	D3DXCOLOR d3dxColor(0.5f, 0.5f, 0.1f, 0.0f);
 	/*지형을 높이 맵 이미지 파일을 사용하여 생성한다. 높이 맵 이미지의 크기는
 	가로x세로(257x257)이고 격자 메쉬의 크기는 가로x세로(17x17)이다.
 	지형 전체는 가로 방향으로 16개, 세로 방향으로 16의 격자 메쉬를 가진다.
 	지형을 구성하는 격자 메쉬의 개수는 총 256(16x16)개가 된다.*/
+
 	//m_ppObjects[0] = new CHeightMapTerrain(pd3dDevice, _T("../Assets/Image/Terrain/HeightMap.raw")
 	m_ppObjects[0] = new CHeightMapTerrain(pd3dDevice, _T("HeightMap.raw")
 		, 257, 257, 17, 17, d3dxvScale, d3dxColor);

@@ -1,1 +1,3 @@
-﻿  LabProject08.vcxproj -> C:\Users\dydrn\OneDrive\문서\Visual Studio 2015\Projects\LabProjects2\LabProjects2\x64\Debug\LabProject08.exe
+﻿  Mesh.cpp
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject08\mesh.cpp(231): warning C4101: 'pnIndices' :참조되지 않은 지역 변수입니다.
+  LabProject08.vcxproj -> C:\Users\dydrn\OneDrive\문서\Visual Studio 2015\Projects\LabProjects2\LabProjects2\x64\Debug\LabProject08.exe
