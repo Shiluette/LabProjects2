@@ -380,7 +380,8 @@ void CInstancingShader::BuildObjects(ID3D11Device *pd3dDevice)
 	for (int j = 0; j < 8; j++)
 	{
 		pRevolvingObject = new CRevolvingObject();
-		pRevolvingObject->SetMesh(pSphereMesh);		pRevolvingObject->SetPosition(fRadius*cosf((float)D3DXToRadian(45.0f)*j), fRadius*sinf((float)D3DXToRadian(45.0f)*j), 0.0f);
+		pRevolvingObject->SetMesh(pSphereMesh);		
+		pRevolvingObject->SetPosition(fRadius*cosf((float)D3DXToRadian(45.0f)*j), fRadius*sinf((float)D3DXToRadian(45.0f)*j), 0.0f);
 		pRevolvingObject->SetRevolutionAxis(D3DXVECTOR3(0.0f, 0.0f, 1.0f));
 		pRevolvingObject->SetRevolutionSpeed(10.0f);
 		m_ppObjects[i++] = pRevolvingObject;

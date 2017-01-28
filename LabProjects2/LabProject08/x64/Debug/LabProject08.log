@@ -1,3 +1,4 @@
-﻿  Mesh.cpp
-c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject08\mesh.cpp(231): warning C4101: 'pnIndices' :참조되지 않은 지역 변수입니다.
+﻿  Shader.cpp
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject08\shader.cpp(255): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject08\shader.cpp(264): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   LabProject08.vcxproj -> C:\Users\dydrn\OneDrive\문서\Visual Studio 2015\Projects\LabProjects2\LabProjects2\x64\Debug\LabProject08.exe
