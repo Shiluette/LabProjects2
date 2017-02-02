@@ -1,0 +1,29 @@
+﻿  Shader.cpp
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\shader.cpp(16): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\shader.cpp(262): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\shader.cpp(271): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\shader.cpp(414): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Scene.cpp
+  Mesh.cpp
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\mesh.cpp(1292): warning C4474: 'swprintf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\mesh.cpp(1292): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\mesh.cpp(1296): warning C4474: 'swprintf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\mesh.cpp(1296): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\mesh.cpp(1300): warning C4474: 'swprintf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\mesh.cpp(1300): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\mesh.cpp(1304): warning C4474: 'swprintf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\mesh.cpp(1304): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\mesh.cpp(1308): warning C4474: 'swprintf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\mesh.cpp(1308): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\mesh.cpp(1312): warning C4474: 'swprintf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\mesh.cpp(1312): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Player.cpp
+  Object.cpp
+  LabProject13-3.cpp
+  GameFramework.cpp
+c:\users\dydrn\onedrive\문서\visual studio 2015\projects\labprojects2\labprojects2\labproject13-3\gameframework.cpp(205): warning C4244: '인수': 'WPARAM'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Camera.cpp
+  코드를 생성하고 있습니다...
+  LabProject13-3.vcxproj -> C:\Users\dydrn\OneDrive\문서\Visual Studio 2015\Projects\LabProjects2\LabProjects2\x64\Debug\LabProject13-3.exe
